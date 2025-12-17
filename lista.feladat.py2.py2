@@ -1,0 +1,11 @@
+lista = ["Tomi", "alma", "Tünde", "banán", "tigris", "citrom"]
+
+t_szavak = []
+
+for szo in lista:
+    if szo[0].lower() == "t":
+        
+        t_szavak.append(szo)
+        
+print("A 't' vagy 'T' betűvel kezdődő szavak:")
+print(t_szavak)

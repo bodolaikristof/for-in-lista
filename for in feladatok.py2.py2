@@ -1,0 +1,20 @@
+szavak = []
+
+print("ez a program kis 'a' vagy 'A' betűvel kezdődő szavakat kér be.")
+
+print("ha más betűvel kezdődő szót adsz meg, azt nem tárolja.")
+
+print("A bevitel befejezéséhez csak ENTER-t üss.\n")
+
+while True:
+    szo = input("adj meg egy szót: ")
+    
+    if szo == "":
+        break
+        
+    if szo[0].lower() == "a":
+        szavak.append(szo)
+
+print("\nEltárolt szavak:")
+for szo in szavak:
+    print(szo)

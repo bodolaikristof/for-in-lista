@@ -1,0 +1,11 @@
+nevek = []
+
+for i in range (3):
+    nev = input("Adj meg egy keresztnevet:")
+    nevek.append(nev)
+    
+print("Már nincs lehetőség újabb adat bevitelére.")
+
+for nev in nevek:
+    print(nev)
+    
